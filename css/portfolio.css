@@ -1,0 +1,174 @@
+/***** BASE STYLES ******/
+
+body {
+    font-family: 'Josefin Slab', serif;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID ******/
+
+#full-header {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+#header-top {
+    height: 400px;
+    width: 1200px;
+}
+
+#header-bottom {
+    height: 400px;
+    width: 1200px;
+}
+
+.full-width-center {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+
+.half-width {
+    width: 600px;
+    float: left;  
+    
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+       
+}
+
+/***** HEADER ******/ /*** #full-header, #header-top, #header-bottom, nav, li, ul ***/
+
+header {
+    height: 800px;
+    background: url(../images/hero.png);
+    background-size: cover;
+}
+
+#full-header h1 {
+    color: #f00600;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+nav {
+    text-align: center;
+    padding-right: 150px;
+}
+
+nav ul li {
+    display: inline-block; 
+    
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+/***** ABOUT ******/ /*** #about, #full-width, h2, p, div ***/
+
+#about .full-width-center {
+    padding: 80px 0;
+}
+
+#about h2 {
+    color: #f00600;
+    font-size: 36px;
+}
+
+#about p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    /**padding: right: not needed right now because text-align is center **/ 
+    
+}
+
+/***** WORK ******/ /*** #work, .full-width, .third-width, img, h3, p ***/
+
+#work {
+    background-color: #00BBF0;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    width: 200px;
+    margin: 0 auto; 
+    line-height: 30px;
+}
+
+#work p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+    
+}
+
+
+/***** FOOTER/CONTACT ******/ /*** #contact, .full-width, .half-width, h3, a, img ***/
+
+#contact {
+    background-color: #EBEBEB;
+      
+}
+
+#contact .full-width {
+    padding: 5px 0;
+    
+}
+
+#contact-image {
+    border: 12px solid #ffffff;
+}
+
+#contact h2, a {
+    padding-left: 115px;
+    padding-top: 80px;
+}
+
+#contact h2 {
+    font-size:  36px;
+    font-weight: 900;
+}
+
+#contact ul {
+    list-style: none;
+    
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-left: 5px;
+}
