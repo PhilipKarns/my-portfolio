@@ -56,7 +56,7 @@ body {
 
 header {
     height: 800px;
-    background: url(../images/hero.png);
+    background: url(../images/desktop-white.png);
     background-size: cover;
 }
 
@@ -69,7 +69,7 @@ header {
 
 nav {
     text-align: center;
-    padding-right: 150px;
+    padding-right: 190px;
 }
 
 nav ul li {
@@ -81,11 +81,16 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
+    color: #00BBF0;
+    font-weight: bold;
     
 }
 
 /***** ABOUT ******/ /*** #about, #full-width, h2, p, div ***/
-
+#about {
+    background-color: #EBEBEB;
+      
+}
 #about .full-width-center {
     padding: 80px 0;
 }
@@ -107,15 +112,20 @@ nav ul li a {
 
 #work {
     background-color: #00BBF0;
-    text-align: center;
+
 }
 
 #work .full-width {
     padding: 115px 0;
 }
 
-#work img {
+#work .half-width {
+    text-align: center;
+}
+
+#work a img {
     padding-bottom: 30px;
+    margin-right: 100px;
 }
 
 #work h3 {
@@ -148,6 +158,8 @@ nav ul li a {
 
 #contact-image {
     border: 12px solid #ffffff;
+    height: 350px;
+    width: 600px;
 }
 
 #contact h2, a {
